@@ -2,15 +2,15 @@
 // BMI = mass / (height * height) - Calculation used to create the BMI Totals
 
 //Variables required to calculate BMI
-let massMark = 78;
-let heightMark = 1.69;
-let massJohn = 92;
-let heightJohn = 1.95;
+const massMark = 78;
+const heightMark = 1.69;
+const massJohn = 92;
+const heightJohn = 1.95;
 
 // Creating two variables to add the totals 
-let BMIMark = massMark / (heightMark * heightMark);
+const BMIMark = massMark / (heightMark * heightMark);
 
-let BMIJohn = massJohn / (heightJohn * heightJohn);
+const BMIJohn = massJohn / (heightJohn * heightJohn);
 
 //Printing the variables to the console
 console.log(BMIMark);
